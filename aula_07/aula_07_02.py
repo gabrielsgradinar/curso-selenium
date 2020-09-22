@@ -1,7 +1,3 @@
-"""
-1. Checar se a mudança ocorre no span(focus, blue)
-2. Checar se a mudança ocorre no p (change)
-"""
 from selenium.webdriver import Firefox
 from selenium.webdriver.support.events import (
     AbstractEventListener,

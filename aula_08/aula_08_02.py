@@ -22,7 +22,7 @@ ac.click(elemento)
 
 def digita_com(key):
     ac.key_down(key)
-    for letra in texto: 
+    for letra in texto:
         ac.key_down(letra)
         ac.key_up(letra)
     ac.key_up(key)
